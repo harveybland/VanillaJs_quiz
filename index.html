@@ -1,0 +1,39 @@
+<head>
+    <title>Personality Quiz</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="begin">
+        <h1>PERSONALITY QUIZ</h1>
+        <h2>What's your workplace personality?</h2>
+        <p>Are you an Enthusiast? A Helper? Or maybe a Peacemaker?<br> Take our workplaces personality test to find out what really makes you, you.<br> Find out why we think you would fit in at the Lancashire Constabulary.</p>
+        <button class="start" onclick="startBtn()">START</button>
+    </div>
+
+    <div class="quiz-container" >
+        <div class="title">Personality Quiz</div>
+        <div id="question" class="question"></div>
+        <label class="option">
+            <input type="radio" name="option" value="1" />
+            <span class="option1"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="2"/>
+            <span class="option2"></span>
+        </label>
+        <!-- Buttons -->
+        <div class="controls">
+            <button class="next">Next</button>
+        </div>
+    </div>
+</div>
+
+    <div class="result" style="display: none;">
+
+    </div>
+
+    <script src="/app.js"></script>
+</body>
